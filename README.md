@@ -5,16 +5,21 @@ on-line materials for CP540
 # Getting to grips with Python
  - [Python is a calculator](notebooks/python_calculator.ipynb)
  - [Python is a *fancy* calculator](notebooks/python_variables.ipynb)
- - [Conditional actions in Python](notebooks/python_conditionals.ipynb)
  - [Lists: collections of data](notebooks/python_lists.ipynb)
  - [Dictionaries: flexible data organisation](notebooks/python_dictionaries.ipynb)
+ - [Conditional actions in Python](notebooks/python_conditionals.ipynb)
  - [Functions: repeating Python code](notebooks/python_functions.ipynb)
  - [Modules: making use of other's code](notebooks/python_imports.ipynb)
- - [Solving algebraic equations](notebooks/python_solver.ipynb)
-
+ - [Pandas 1](notebooks/python_pandas1.ipynb)
+ - [Pandas 2](notebooks/python_pandas2.ipynb)
+ - [Pandas 3](notebooks/python_pandas3.ipynb)
+ - [Pandas 4](notebooks/python_pandas4.ipynb)
+ 
+ 
 # More advanced stuff
  - [Reading and writing Excel spreadsheets using `pandas` and `openpyxl`](notebooks/python_file.ipynb)
  - [Plotting using `matplotlib`](notebooks/python_plotting.ipynb)
+ - [Solving algebraic equations](notebooks/python_solver.ipynb)
  - [Solving algebraic equations with `sympy`](notebooks/python_sympy.ipynb)
 
 # Example applications
