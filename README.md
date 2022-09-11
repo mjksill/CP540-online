@@ -10,6 +10,7 @@ on-line materials for CP540
  - [Conditional actions in Python](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_conditionals.ipynb)
  - [Functions: repeating Python code](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_functions.ipynb)
  - [Modules: making use of other's code](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_imports.ipynb)
+ - [Plotting using `matplotlib`](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_plotting.ipynb)
  - [Pandas 1](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_pandas1.ipynb)
  - [Pandas 2](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_pandas2.ipynb)
  - [Pandas 3](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_pandas3.ipynb)
@@ -18,7 +19,6 @@ on-line materials for CP540
  
 # More advanced stuff
  - [Reading and writing Excel spreadsheets using `pandas` and `openpyxl`](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_file.ipynb)
- - [Plotting using `matplotlib`](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_plotting.ipynb)
  - [Solving algebraic equations](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_solver.ipynb)
  - [Solving algebraic equations with `sympy`](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_sympy.ipynb)
 
