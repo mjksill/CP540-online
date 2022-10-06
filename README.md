@@ -7,14 +7,16 @@ on-line materials for CP540
  - [Python is a *fancy* calculator](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_variables.ipynb)
  - [Lists: collections of data](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_lists.ipynb)
  - [Dictionaries: flexible data organisation](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_dictionaries.ipynb)
- - [Conditional actions in Python](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_conditionals.ipynb)
- - [Functions: repeating Python code](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_functions.ipynb)
  - [Modules: making use of other's code](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_imports.ipynb)
  - [Plotting using `matplotlib`](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_plotting.ipynb)
- - [Pandas 1](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_pandas1.ipynb)
- - [Pandas 2](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_pandas2.ipynb)
- - [Pandas 3](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_pandas3.ipynb)
- - [Pandas 4](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_pandas4.ipynb)
+ - [Conditional actions in Python](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_conditionals.ipynb)
+ - [Functions: repeating Python code](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_functions.ipynb)
+ - [Introduction to Pandas and data frames](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_pandas1.ipynb)
+   - [Sample data file: function.csv](./data/function.csv)
+ - [Working with Pandas data frames](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_pandas2.ipynb)
+ - [Importing data into Pandas directly from websites](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_pandas3.ipynb)
+ - [Filtering and exploring data with Pandas](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_pandas4.ipynb)
+ - [Interpolation of data](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_interpolation.ipynb)
  
  
 # More advanced stuff
@@ -22,5 +24,10 @@ on-line materials for CP540
  - [Solving algebraic equations](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_solver.ipynb)
  - [Solving algebraic equations with `sympy`](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_sympy.ipynb)
 
+
 # Example applications
  - [Weather monitoring](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/Plotting_Weather_Data.ipynb)
+
+# Data sources
+
+- [Our World in Data](https://github.com/owid/owid-datasets)
