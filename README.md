@@ -13,9 +13,12 @@ on-line materials for CP540
  - [Functions: repeating Python code](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_functions.ipynb)
  - [Introduction to Pandas and data frames](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_pandas1.ipynb)
    - [Sample data file: function.csv](./data/functions.csv)
+   - [Sample data file: function.xlsx](./data/functions.xlsx)
  - [Working with Pandas data frames](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_pandas2.ipynb)
+   - [UK electrical grid data](./data/gridwatch.csv)
  - [Importing data into Pandas directly from websites](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_pandas3.ipynb)
  - [Filtering and exploring data with Pandas](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_pandas4.ipynb)
+   - [Solar irradiation data](./data/midas-open_uk-radiation-obs_dv-202107_lanarkshire_00987_drumalbin_qcv-1_1995.csv)
  - [Interpolation of data](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_interpolation.ipynb)
  
  
