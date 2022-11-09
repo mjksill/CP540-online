@@ -19,8 +19,8 @@ on-line materials for CP540
  - [Importing data into Pandas directly from websites](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_pandas3.ipynb)
  - [Filtering and exploring data with Pandas](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_pandas4.ipynb)
    - [Solar irradiation data](./data/midas-open_uk-radiation-obs_dv-202107_lanarkshire_00987_drumalbin_qcv-1_1995.csv)
- - [Interpolation of data](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_interpolation.ipynb)
-  - [Fitting and interpolation of data](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_data.ipynb)
+ - [Interpolation of data](https://colab.research.google.com/github/mjksill/CP540-online/blob/main/notebooks/python_interpolation.ipynb)
+  - [Fitting and interpolation of data](https://colab.research.google.com/github/mjksill/CP540-online/blob/main/notebooks/python_data.ipynb)
  
  
 # More advanced stuff
