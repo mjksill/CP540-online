@@ -13,6 +13,17 @@
 
 <link rel="stylesheet" href="../../reveal.js-fork/dist/theme/leolue.css" id="theme"/>
 
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = '../../reveal.js-fork/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
 </head>
 <body>
 <div class="reveal">
@@ -34,8 +45,8 @@
 <script src="../../reveal.js-plugins/audio-slideshow/RecordRTC.js"></script>
 
 <section>
-<section id="slide-org7928be2">
-<h2 id="org7928be2">CP540: Project planning, management and methods</h2>
+<section id="slide-org845abd6">
+<h2 id="org845abd6">CP540: Project planning, management and methods</h2>
 <h2>Critical review of information</h2>
 <h3>L Lue<br>Department&nbspof&nbspChemical&nbspand&nbspProcess&nbspEngineering<br>University&nbspof&nbspStrathclyde</h3>
 
@@ -96,8 +107,8 @@ the information.
 </section>
 </section>
 <section>
-<section id="slide-org1bbfa6d">
-<h2 id="org1bbfa6d">Overview</h2>
+<section id="slide-org4442ae7">
+<h2 id="org4442ae7">Overview</h2>
 <ul>
 <li>Scientific publishing</li>
 <li>Review of note taking and reading strategies</li>
@@ -188,8 +199,8 @@ interests are.</li>
 </section>
 </section>
 <section>
-<section id="slide-org8323345">
-<h2 id="org8323345">Publication process</h2>
+<section id="slide-orgfcb4881">
+<h2 id="orgfcb4881">Publication process</h2>
 <ul>
 <li>Authors submit a manuscript to a journal</li>
 <li>The editor decides whether the manuscript is
@@ -251,8 +262,8 @@ then it will be sent to be reviewed by experts in the field.</li>
 </section>
 </section>
 <section>
-<section id="slide-orgcbbe294">
-<h2 id="orgcbbe294">Famous controversies in science</h2>
+<section id="slide-org47c27f3">
+<h2 id="org47c27f3">Famous controversies in science</h2>
 <ul>
 <li><a href="https://slate.com/technology/2013/11/polywater-history-and-science-mistakes-the-u-s-and-ussr-raced-to-create-a-new-form-of-water.html">polywater</a>, 1966</li>
 <li><a href="https://www.nature.com/news/2004/041004/full/news041004-19.html">water memory</a>, 1988</li>
@@ -333,8 +344,8 @@ perspective on the credibility of the information.
 </section>
 </section>
 <section>
-<section id="slide-org64157b0">
-<h2 id="org64157b0">Recent "controversies"</h2>
+<section id="slide-org01fcd68">
+<h2 id="org01fcd68">Recent "controversies"</h2>
 <ul>
 <li><a href="https://www.nature.com/articles/d41586-023-03398-4">Room temperature superconductivity</a>, 2023</li>
 <li>reproducibility crisis in psychology
@@ -363,8 +374,8 @@ perspective on the credibility of the information.
 </section>
 </section>
 <section>
-<section id="slide-org1a90ab6">
-<h2 id="org1a90ab6">Commercial scientific publishing</h2>
+<section id="slide-orgb3e0d50">
+<h2 id="orgb3e0d50">Commercial scientific publishing</h2>
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZriLHzZilTR_BNiaSdgldPyQ2soMgTaPADaBz-lzm1AG86QKHHVBJLsu1EAFEFtLXw0E&usqp=CAU" height=500>
 
 <img src="https://mark.trademarkia.com/logo-images/pergamon-press-limited/logo-74197149.jpg" height=500>
@@ -405,8 +416,8 @@ pounds.
 </section>
 </section>
 <section>
-<section id="slide-orgde992f6">
-<h2 id="orgde992f6">Commercial publishers</h2>
+<section id="slide-orgc60a72b">
+<h2 id="orgc60a72b">Commercial publishers</h2>
 <ul>
 <li>Elsevier</li>
 <li>Wiley</li>
@@ -463,16 +474,16 @@ knowledge in science?
 </section>
 </section>
 <section>
-<section id="slide-org064d6cb">
-<h2 id="org064d6cb">Profit margins</h2>
+<section id="slide-org5b5dc69">
+<h2 id="org5b5dc69">Profit margins</h2>
 <img src="./criticalanalysis/profit-table-with-revenues.png" height=500>
 
 <div class="slide-footer"></div>
 </section>
 </section>
 <section>
-<section id="slide-org983e3f6">
-<h2 id="org983e3f6">Open access publishing</h2>
+<section id="slide-org1d7efc7">
+<h2 id="org1d7efc7">Open access publishing</h2>
 <ul>
 <li>traditional journals
 <ul>
@@ -525,8 +536,8 @@ all its journals open access</li>
 </section>
 </section>
 <section>
-<section id="slide-orga63041e">
-<h2 id="orga63041e">Why do researchers publish?</h2>
+<section id="slide-org83ccc7e">
+<h2 id="org83ccc7e">Why do researchers publish?</h2>
 <ul>
 <li>genuine interest in their subject</li>
 <li>prestige</li>
@@ -590,13 +601,13 @@ there is some attempt to mitigate of this by including a portion of the
 </section>
 </section>
 <section>
-<section id="slide-org646bb1e">
-<h2 id="org646bb1e">Issues in publishing</h2>
+<section id="slide-orga8a7432">
+<h2 id="orga8a7432">Issues in publishing</h2>
 <ul>
 <li>pressure for novelty</li>
 <li>conflicts of interest
 <ul>
-<li>medical ghostwriting</li>
+<li><a href="http://dx.doi.org/10.1371/journal.pmed.1000156">medical ghostwriting</a></li>
 
 </ul></li>
 <li>predatory publishers
@@ -608,8 +619,8 @@ there is some attempt to mitigate of this by including a portion of the
 <li>authorships
 <ul>
 <li>for sale</li>
+<li>adding authors without permission</li>
 <li>fake co-authors</li>
-<li></li>
 
 </ul></li>
 <li>referee clubs</li>
@@ -647,8 +658,8 @@ article and often receives a payment.
 </section>
 </section>
 <section>
-<section id="slide-orgf679f38">
-<h2 id="orgf679f38">Scientific watchdogs</h2>
+<section id="slide-org7662937">
+<h2 id="org7662937">Scientific watchdogs</h2>
 <ul>
 <li>Retraction Watch:
 <ul>
@@ -696,8 +707,8 @@ work was retracted.</li>
 </section>
 </section>
 <section>
-<section id="slide-org87caef4">
-<h2 id="org87caef4">The future of scientific publishing?</h2>
+<section id="slide-orgef84902">
+<h2 id="orgef84902">The future of scientific publishing?</h2>
 <ul>
 <li>arxiv
 <ul>
@@ -728,8 +739,8 @@ work was retracted.</li>
 </section>
 </section>
 <section>
-<section id="slide-org5d87901">
-<h2 id="org5d87901">Review of note taking</h2>
+<section id="slide-org770d72c">
+<h2 id="org770d72c">Review of note taking</h2>
 <img src="https://img.freepik.com/free-photo/close-up-hand-taking-notes_23-2148950524.jpg?w=1060&t=st=1667242625~exp=1667243225~hmac=a3157945967ea4c31493c436eb41980a9bf3dd1a0f6b17000af6ca90b9777866" height=500>
 
 
@@ -758,8 +769,8 @@ modules or different aspects of your work?</li>
 </section>
 </section>
 <section>
-<section id="slide-org30467e3">
-<h2 id="org30467e3">Strategies for reading</h2>
+<section id="slide-org07ec17c">
+<h2 id="org07ec17c">Strategies for reading</h2>
 <ul>
 <li>reading plan</li>
 <li>reading purpose</li>
@@ -815,8 +826,8 @@ you.
 </section>
 </section>
 <section>
-<section id="slide-org8f1ea32">
-<h2 id="org8f1ea32">Critical reading of literature</h2>
+<section id="slide-orga9cb478">
+<h2 id="orga9cb478">Critical reading of literature</h2>
 <p>
 What does it mean to be critical?
 </p>
@@ -902,8 +913,8 @@ Take notes while writing.
 </section>
 </section>
 <section>
-<section id="slide-orgbab7cbc">
-<h2 id="orgbab7cbc">Godel's incompleteness theorem</h2>
+<section id="slide-orge6b4545">
+<h2 id="orge6b4545">Godel's incompleteness theorem</h2>
 <img src="https://64.media.tumblr.com/68ca359f084c78d55138e16872711e25/tumblr_inline_pqok0tSVXg1sejrrf_500.png" height=500>
 
 
@@ -943,8 +954,8 @@ Principia Mathematics
 </section>
 </section>
 <section>
-<section id="slide-orgb501609">
-<h2 id="orgb501609">Understanding through models and stories</h2>
+<section id="slide-orgc24699c">
+<h2 id="orgc24699c">Understanding through models and stories</h2>
 <ul>
 <li>models</li>
 <li>symbols</li>
@@ -1059,36 +1070,80 @@ any idea about how</li>
 </section>
 </section>
 <section>
-<section id="slide-org2299fa6">
-<h2 id="org2299fa6">Drawing</h2>
+<section id="slide-org2b7eee3">
+<h2 id="org2b7eee3">Drawing</h2>
 <img src="./Zettelkasten2/51VF547VZ7L.jpg" height=500>
 
 <div class="slide-footer"></div>
 </section>
 </section>
 <section>
-<section id="slide-orgdc48e6a">
-<h2 id="orgdc48e6a">Symbols</h2>
+<section id="slide-org490bd7b">
+<h2 id="org490bd7b">Symbols</h2>
 <img src="./Zettelkasten2/stravinski.png" height=500>
 <img src="./Zettelkasten2/stravinski2.png" height=500>
+
+<aside class="notes">
+<p>
+page 54
+</p>
+
+
+<p>
+On the right are some drawings that four different students were asked to produce.
+First they were asked to just draw a person
+</p>
+
+<p>
+Here are some sample 
+</p>
+
+</aside>
 
 <div class="slide-footer"></div>
 </section>
 </section>
 <section>
-<section id="slide-orgd5bccc0">
-<h2 id="orgd5bccc0">Portraits</h2>
+<section id="slide-orgac986d0">
+<h2 id="orgac986d0">Portraits</h2>
 <img src="./Zettelkasten2/fig5-3.png" height=500>
 <img src="./Zettelkasten2/fig5-4.png" height=500>
 <img src="./Zettelkasten2/fig5-6.png" height=500>
 <img src="./Zettelkasten2/fig5-13.png" height=500>
 
+
+<aside class="notes">
+<p>
+These are some portraits that are drawn by children of different ages.
+The first is by a child that was two and a half years old.  The second
+was by a child that was three and a half years old.
+</p>
+
+<p>
+The third picture is by a child that was about four or five years old.
+At this age, children tend to tell stories with their pictures.  These
+pictures solve problems and show some sort of understanding of the
+world and how it works.
+</p>
+
+<p>
+The final picture is that of an adolescent girl.  At the age of about
+ten or so, children's drawings start to differentiate themselves
+according to their gender.  There is more attention to detail, and
+they start to become self-conscious that their pictures do not look
+realistic.  Sometimes they turn to cartooning in order to avoid the
+issue of not being able to draw "realistically".
+</p>
+
+</aside>
+
+
 <div class="slide-footer"></div>
 </section>
 </section>
 <section>
-<section id="slide-org4de2fdc">
-<h2 id="org4de2fdc">Landscapes</h2>
+<section id="slide-orgdeae658">
+<h2 id="orgdeae658">Landscapes</h2>
 <img src="./Zettelkasten2/fig5-10.png" height=500>
 <img src="./Zettelkasten2/fig5-11.png" height=500>
 
@@ -1096,8 +1151,8 @@ any idea about how</li>
 </section>
 </section>
 <section>
-<section id="slide-orgc6b54e7">
-<h2 id="orgc6b54e7">Complicated symbols</h2>
+<section id="slide-orgae1d918">
+<h2 id="orgae1d918">Complicated symbols</h2>
 <img src="./Zettelkasten2/fig5-14.png" height=500>
 
 
@@ -1106,8 +1161,8 @@ any idea about how</li>
 </section>
 </section>
 <section>
-<section id="slide-orgb307bef">
-<h2 id="orgb307bef">Just so stories</h2>
+<section id="slide-orgf63b9c5">
+<h2 id="orgf63b9c5">Just so stories</h2>
 <img src="./criticalanalysis/s-l500.jpg" height=500>
 
 
@@ -1133,8 +1188,8 @@ The image for the book came from <img src="https://i.ebayimg.com/images/g/DyMAAO
 
 <div class="slide-footer"></div>
 </section>
-<section id="slide-org3a386d4">
-<h3 id="org3a386d4">Origin of money</h3>
+<section id="slide-org6952d52">
+<h3 id="org6952d52">Origin of money</h3>
 <aside class="notes">
 <p>
 
@@ -1158,8 +1213,8 @@ is a commodity, such as a precious metal or livestock.
 </section>
 </section>
 <section>
-<section id="slide-orgba75660">
-<h2 id="orgba75660">Critical reading of literature</h2>
+<section id="slide-org6987032">
+<h2 id="org6987032">Critical reading of literature</h2>
 <p>
 What does it mean to be critical?
 </p>
@@ -1177,8 +1232,8 @@ What does it mean to be critical?
 </section>
 </section>
 <section>
-<section id="slide-org1e0b87d">
-<h2 id="org1e0b87d">Strategies for active reading</h2>
+<section id="slide-org4a15b10">
+<h2 id="org4a15b10">Strategies for active reading</h2>
 <ul>
 <li>Activating and using background knowledge</li>
 <li>Generating and asking questions</li>
@@ -1212,8 +1267,8 @@ before you can properly assess the field.
 </section>
 </section>
 <section>
-<section id="slide-orgcbe593f">
-<h2 id="orgcbe593f">Basic questions</h2>
+<section id="slide-org7be92a2">
+<h2 id="org7be92a2">Basic questions</h2>
 <ul>
 <li>Authority</li>
 <li>Purpose</li>
@@ -1272,8 +1327,8 @@ publisher).</li>
 </section>
 </section>
 <section>
-<section id="slide-orgdef36ca">
-<h2 id="orgdef36ca">Questions to deepen your reading</h2>
+<section id="slide-org7f4edd7">
+<h2 id="org7f4edd7">Questions to deepen your reading</h2>
 <ul>
 <li>evidence presented (as opposed to the conclusions)</li>
 <li>assumptions (perspective)</li>
@@ -1320,8 +1375,8 @@ incorrect or the logic that is used is wrong.
 </section>
 </section>
 <section>
-<section id="slide-orgf23dd78">
-<h2 id="orgf23dd78">Choosing your topic</h2>
+<section id="slide-orgf2cfa72">
+<h2 id="orgf2cfa72">Choosing your topic</h2>
 <blockquote>
 "...the more you narrow the field, the better and more safely you will
 work."
@@ -1354,8 +1409,8 @@ you are trying to provide to the reader.
 </section>
 </section>
 <section>
-<section id="slide-orgd6e4919">
-<h2 id="orgd6e4919">What does it mean to be scientific?</h2>
+<section id="slide-org2612605">
+<h2 id="org2612605">What does it mean to be scientific?</h2>
 <p>
 What Does It Mean to Be Scientific?
 </p>
@@ -1377,8 +1432,8 @@ foundation for future research.</li>
 </section>
 </section>
 <section>
-<section id="slide-orgba0f8b9">
-<h2 id="orgba0f8b9">Potential topics</h2>
+<section id="slide-org6acc754">
+<h2 id="org6acc754">Potential topics</h2>
 <ul>
 <li>The fate of plastics collected for recycling;</li>
 <li>The benefits and issues with agrivoltaics.</li>
