@@ -13,6 +13,17 @@
 
 <link rel="stylesheet" href="../../reveal.js-fork/dist/theme/moon.css" id="theme"/>
 
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = '../../reveal.js-fork/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
 </head>
 <body>
 <div class="reveal">
@@ -33,8 +44,8 @@
 <script src="../../reveal.js-plugins/audio-slideshow/recorder.js"></script>
 <script src="../../reveal.js-plugins/audio-slideshow/RecordRTC.js"></script>
 <section>
-<section id="slide-orgf6c0ee2">
-<h2 id="orgf6c0ee2">CP540: Project planning, management and methods</h2>
+<section id="slide-org989ad5c">
+<h2 id="org989ad5c">CP540: Project planning, management and methods</h2>
 <h2>Module overview</h2>
 <h3>L Lue<br>Department&nbspof&nbspChemical&nbspand&nbspProcess&nbspEngineering<br>University&nbspof&nbspStrathclyde</h3>
 
@@ -98,8 +109,8 @@ Its aim is to provide you an overview of
 </section>
 </section>
 <section>
-<section id="slide-org1e39f4f">
-<h2 id="org1e39f4f">Overview</h2>
+<section id="slide-org6cf08e0">
+<h2 id="org6cf08e0">Overview</h2>
 <ul>
 <li>Module leader: Leo Lue</li>
 <li>Demonstrators: Zoe Macpherson &amp; Thomas Paterson</li>
@@ -111,12 +122,12 @@ Its aim is to provide you an overview of
 </ul></li>
 <li>Lectures / Workshops
 <ul>
-<li>Mondays 2.00 - 4.00 pm Teams</li>
+<li>Mondays 2.00 - 4.00 pm Teams (Weeks 1 &amp; 2)</li>
+<li>Mondays 3.00 - 5.00 pm Teams (Weeks 3 - 11)</li>
 
 </ul></li>
 
 </ul>
-
 
 <aside class="notes">
 <p>
@@ -172,11 +183,11 @@ workshops on project planning and monitoring.
 </section>
 </section>
 <section>
-<section id="slide-org0ed99b7">
-<h2 id="org0ed99b7">Large Language Models and AI</h2>
+<section id="slide-orgfea995c">
+<h2 id="orgfea995c">Large Language Models and AI</h2>
 <div>
 
-<div id="orgec6e32c" class="figure">
+<div id="org83d5c6c" class="figure">
 <p><img src="./intro/LLM.png" alt="LLM.png" height="600" />
 </p>
 </div>
@@ -235,8 +246,8 @@ How can we add value?
 </section>
 </section>
 <section>
-<section id="slide-orgcf30266">
-<h2 id="orgcf30266">Key topics</h2>
+<section id="slide-org85f8dfb">
+<h2 id="org85f8dfb">Key topics</h2>
 <ul>
 <li>project planning and monitoring</li>
 <li>note taking</li>
@@ -284,8 +295,56 @@ as well as your general life.
 </section>
 </section>
 <section>
-<section id="slide-org9a1d155">
-<h2 id="org9a1d155">Components of assessment</h2>
+<section id="slide-org004b86d">
+<h2 id="org004b86d">Components of assessment</h2>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">component</td>
+<td class="org-right">weight</td>
+<td class="org-left">due date</td>
+</tr>
+
+<tr>
+<td class="org-left">project plan</td>
+<td class="org-right">50%</td>
+<td class="org-left">January 30 / week 2</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">April 24 / exam diet</td>
+</tr>
+
+<tr>
+<td class="org-left">data presentation</td>
+<td class="org-right">50%</td>
+<td class="org-left">March 06 / week 7</td>
+</tr>
+</tbody>
+</table>
+
+
+<aside class="notes">
+<p>
+There are three components of assessment for this module: a project
+plan for your activities in this academic year, which is worth 20% of
+the module marks, an exercise on the processing, analysis, and visual
+presentation of data, which is worth 30% of the module marks, and a
+literature review on a topic based on sustainable development.
+</p>
+
+
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -323,23 +382,13 @@ as well as your general life.
 </tbody>
 </table>
 
-
-<aside class="notes">
-<p>
-There are three components of assessment for this module: a project
-plan for your activities in this academic year, which is worth 20% of
-the module marks, an exercise on the processing, analysis, and visual
-presentation of data, which is worth 30% of the module marks, and a
-literature review on a topic based on sustainable development.
-</p>
-
 </aside>
 <div class="slide-footer"></div>
 </section>
 </section>
 <section>
-<section id="slide-orga3f37b6">
-<h2 id="orga3f37b6">Assessment #1: Project plan</h2>
+<section id="slide-org20d595e">
+<h2 id="org20d595e">Assessment #1: Project plan</h2>
 <ul>
 <li>project plan</li>
 <li>monitoring and review</li>
@@ -413,8 +462,8 @@ The second part of the submission will be due on Sunday December 03 at
 </section>
 </section>
 <section>
-<section id="slide-org05366eb">
-<h2 id="org05366eb">Assessment #2: Data presentation</h2>
+<section id="slide-org8061544">
+<h2 id="org8061544">Assessment #2: Data presentation</h2>
 <ul>
 <li>Presentation</li>
 <li>code for processing data and creating figures</li>
@@ -439,8 +488,8 @@ sources.
 </section>
 </section>
 <section>
-<section id="slide-org1d3dd7a">
-<h2 id="org1d3dd7a">Schedule</h2>
+<section id="slide-orgd4a637a">
+<h2 id="orgd4a637a">Schedule</h2>
 <ul>
 <li>Week  1: Project planning</li>
 <li>Week  2: Literature searching &amp; Reference management</li>
@@ -499,8 +548,8 @@ sources.
 </section>
 </section>
 <section>
-<section id="slide-org02509c2">
-<h2 id="org02509c2">Questions?</h2>
+<section id="slide-org9526aef">
+<h2 id="org9526aef">Questions?</h2>
 <p>
 If you have any questions, please post to the class forum on Myplace
 or email me at leo.lue@strath.ac.uk.
