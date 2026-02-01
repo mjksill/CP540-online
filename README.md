@@ -11,13 +11,13 @@ on-line materials for CP540
  - [Plotting using `matplotlib`](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_plotting.ipynb)
  - [Conditional actions in Python](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_conditionals.ipynb)
  - [Functions: repeating Python code](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_functions.ipynb)
- - [Introduction to Pandas and data frames](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_pandas1.ipynb)
+ - [Introduction to Pandas and data frames](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/CP540_pandas1.ipynb)
    - [Sample data file: function.csv](./data/functions.csv)
    - [Sample data file: function.xlsx](./data/functions.xlsx)
- - [Working with Pandas data frames](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_pandas2.ipynb)
+ - [Working with Pandas data frames](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/CP540_pandas2.ipynb)
    - [UK electrical grid data](./data/gridwatch.csv)
- - [Importing data into Pandas directly from websites](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_pandas3.ipynb)
- - [Filtering and exploring data with Pandas](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/python_pandas4.ipynb)
+ - [Importing data into Pandas directly from websites](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/CP540_pandas3.ipynb)
+ - [Filtering and exploring data with Pandas](https://colab.research.google.com/github/mjksill/CP540-online/blob/master/notebooks/CP540_pandas4.ipynb)
    - [Solar irradiation data](./data/midas-open_uk-radiation-obs_dv-202107_lanarkshire_00987_drumalbin_qcv-1_1995.csv)
  - [Interpolation of data](https://colab.research.google.com/github/mjksill/CP540-online/blob/main/notebooks/python_interpolation.ipynb)
   - [Fitting and interpolation of data](https://colab.research.google.com/github/mjksill/CP540-online/blob/main/notebooks/python_data.ipynb)
@@ -34,4 +34,7 @@ on-line materials for CP540
 
 # Data sources
 
+- [Met Office MIDAS Open: UK Land Surface Stations Data (1853--current)](https://catalogue.ceda.ac.uk/uuid/dbd451271eb04662beade68da43546e1/?q=&results_per_page=20&sort_by=title_desc&objects_related_to_uuid=dbd451271eb04662beade68da43546e1&page=2)
+- [GRIDWATCH](https://www.gridwatch.templar.co.uk/)
+- [Open Power Systems Data](https://data.open-power-system-data.org)
 - [Our World in Data](https://github.com/owid/owid-datasets)
